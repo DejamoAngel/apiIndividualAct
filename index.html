@@ -4,10 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fetch</title>
-    <link rel="styesheet" href="design.css">
+    <link rel="styesheet" href="design.css"/>
 </head>
 <body>
-    <div id="container"></div>
-</body>
+    <div class="container">
+      <h1>Manga Search</h1>
+      <input type="text" id="searchInput" placeholder="Enter manga title...">
+      <button onclick="searchManga()">Search</button>
+      <div id="results"></div>
+    </div>
+  
     <script src="script.js"></script>
+  </body>
 </html>
